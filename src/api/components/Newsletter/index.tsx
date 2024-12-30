@@ -13,7 +13,7 @@ import { notifications } from '@mantine/notifications';
 import React from 'react';
 import { Check } from 'tabler-icons-react';
 import styles from './Newsletter.module.css';
-
+ 
 const Newsletter = () => {
   const form = useForm({
     initialValues: {
