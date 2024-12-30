@@ -12,7 +12,7 @@ import styles from './WishlistItem.module.css';
 type WishlistItemProps = {
   item: Product;
 };
-
+ 
 const WishlistItem = ({ item }: WishlistItemProps) => {
   const [size, setSize] = useState<string | null>(null);
   const [error, setError] = useState(false);
