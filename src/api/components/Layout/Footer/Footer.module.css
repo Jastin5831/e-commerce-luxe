@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--mantine-color-dark-6);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 16px 40px;
+  align-items: center;
+  gap: 30px;
+}
+
+.list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.list li {
+  color: white;
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (min-width: 426px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
