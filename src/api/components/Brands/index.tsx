@@ -33,7 +33,7 @@ const brands = [
 
 const Brands = () => {
   return (
-    <MediaQuery
+    <MediaQuery 
       largerThan={768}
       styles={{ paddingLeft: rem(32), paddingRight: rem(32) }}
     >

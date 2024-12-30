@@ -34,7 +34,7 @@ const AddToCartBtn = ({
         },
       })}
       className={`${styles['cart-btn']} ${addedToCart ? styles.added : ''}`}
-      aria-label="Add to cart"
+      aria-label="Add to cart" 
     >
       <FaShoppingCart className={styles.cart} />
       <FaBox className={styles.box} />
