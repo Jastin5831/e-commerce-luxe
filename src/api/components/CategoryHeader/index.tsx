@@ -15,7 +15,7 @@ const title: Record<string, string> = {
   men: "Men's Clothing",
   women: "Women's Clothing",
 };
-
+ 
 const CategoryHeader = ({
   category,
   sortedProducts,

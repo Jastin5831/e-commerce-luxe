@@ -10,7 +10,7 @@ type FilterAccordionProps = {
   resetFilter: () => void;
   children: React.ReactNode;
 };
-
+ 
 const FilterAccordion = ({
   sortedProducts,
   resetFilter,

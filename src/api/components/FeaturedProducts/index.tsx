@@ -6,7 +6,7 @@ import ProductCard from '../ProductsGrid/ProductCard';
 type FeaturedProductsProps = {
   products: Product[];
 };
-
+ 
 const FeaturedProducts = ({ products }: FeaturedProductsProps) => {
   return (
     <MediaQuery

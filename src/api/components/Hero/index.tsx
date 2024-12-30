@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import hero from '../../../public/images/hero.jpg';
 import styles from './Hero.module.css';
-
+ 
 const Hero = () => {
   return (
     <div className={styles['hero-wrapper']}>
