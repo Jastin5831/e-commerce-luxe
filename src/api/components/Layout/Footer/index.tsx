@@ -18,7 +18,7 @@ const labels = [
     listItems: ['FAQs', 'Delivery', 'Returns', 'Size Guide'],
   },
 ];
-
+ 
 const Footer = () => {
   return (
     <footer className={styles.footer}>

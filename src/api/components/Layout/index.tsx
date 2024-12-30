@@ -15,7 +15,7 @@ const slideRight = {
   common: { transformOrigin: 'right' },
   transitionProperty: 'transform',
 };
-
+ 
 const Layout = ({ children }: LayoutProps) => {
   const [opened, setOpened] = useState(false);
 

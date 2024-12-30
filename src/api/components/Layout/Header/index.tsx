@@ -21,7 +21,7 @@ type HeaderProps = {
   onToggleNavbar: () => void;
   onClose: () => void;
 };
-
+ 
 const Header = ({ opened, onToggleNavbar, onClose }: HeaderProps) => {
   const router = useRouter();
   const currentRoute = router.asPath;
