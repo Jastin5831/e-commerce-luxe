@@ -39,3 +39,4 @@ const ProductItem = ({ product }: ProductItemProps) => {
 };
 
 export default ProductItem;
+ 

@@ -41,7 +41,7 @@ type ProductsFilterProps = {
   category: string;
   id: number;
 };
-
+ 
 const ProductsFilter = ({
   filter,
   setFilter,

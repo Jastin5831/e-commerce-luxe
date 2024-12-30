@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Button, Group, Text } from '@mantine/core';
 import Link from 'next/link';
 import styles from './NewArrivals.module.css';
-
+ 
 const NewArrivals = () => {
   return (
     <div className={styles.container}>
