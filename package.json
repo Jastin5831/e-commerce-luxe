@@ -1,0 +1,41 @@
+{
+  "name": "e-commerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@mantine/carousel": "^6.0.2",
+    "@mantine/core": "^6.0.2",
+    "@mantine/form": "^6.0.2",
+    "@mantine/hooks": "^6.0.2",
+    "@mantine/next": "^6.0.2",
+    "@mantine/notifications": "^6.0.2",
+    "@stripe/stripe-js": "^1.52.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@vercel/analytics": "^0.1.11",
+    "axios": "^1.3.4",
+    "embla-carousel-react": "^7.0.9",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.1",
+    "framer-motion": "^10.6.1",
+    "next": "13.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-remove-scroll": "^2.5.5",
+    "react-switch": "^7.0.0",
+    "stripe": "^11.16.0",
+    "tabler-icons-react": "^1.56.0",
+    "typescript": "4.9.5",
+    "zustand": "^4.3.6"
+  }
+}
