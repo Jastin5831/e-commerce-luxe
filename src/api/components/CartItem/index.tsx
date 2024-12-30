@@ -45,7 +45,7 @@ const CartItem = ({ item }: CartItemProps) => {
     <>
       <div className={styles.grid}>
         <div>
-          <Anchor
+          <Anchor 
             component={Link}
             href={`/product/${item.id}`}
             sx={{ display: 'block' }}

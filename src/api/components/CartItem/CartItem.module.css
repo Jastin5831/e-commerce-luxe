@@ -17,7 +17,7 @@
     grid-template-columns: 1fr 1.5fr;
   }
 }
-
+ 
 @media (min-width: 630px) {
   .grid {
     grid-template-columns: 1fr 2fr;
