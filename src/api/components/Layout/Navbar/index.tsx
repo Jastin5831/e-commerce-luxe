@@ -11,7 +11,7 @@ type NavbarProps = {
 const Navbar = ({ onClose }: NavbarProps) => {
   const router = useRouter();
   const currentRoute = router.asPath;
-
+ 
   return (
     <>
       <RemoveScroll>

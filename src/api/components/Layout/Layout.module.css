@@ -14,7 +14,7 @@
   font-weight: 700;
   text-align: center;
 }
-
+ 
 @media (min-width: 290px) {
   .features-wrapper {
     gap: 20px;
