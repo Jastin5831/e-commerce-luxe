@@ -5,5 +5,6 @@ export const getCategories = async () => {
   const { data } = await customAxios.get<StrapiResponse<Category[]>>(
     '/categories'
   );
+  
   return data;
 };

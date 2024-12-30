@@ -5,5 +5,6 @@ export const getAllProducts = async () => {
   const { data } = await customAxios.get<StrapiResponse<Product[]>>(
     '/products'
   );
+  
   return data;
 };
