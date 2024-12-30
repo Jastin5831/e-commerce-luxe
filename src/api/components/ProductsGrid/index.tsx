@@ -8,7 +8,7 @@ type ProductsGridProps = {
   products: Product[];
   recommendedProducts: Product[];
 };
-
+ 
 const ProductsGrid = ({ products, recommendedProducts }: ProductsGridProps) => {
   if (products.length === 0) {
     return (

@@ -18,7 +18,7 @@ export const useFilter = () => {
   const [debouncedIsNew] = useDebouncedValue(isNew, 300);
   const [debouncedSizes] = useDebouncedValue(sizes, 300);
   const [debouncedBrands] = useDebouncedValue(brands, 300);
-
+ 
   const filter = {
     types,
     price: {
